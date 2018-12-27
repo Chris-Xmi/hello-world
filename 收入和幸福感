@@ -1,0 +1,214 @@
+# Section 1
+
+## 关键词
+- 经济增长[收入，物价稳定]
+- 失业和通货膨胀
+- 机构的因素（政府质量[信用，效率，法治，反腐]，社会资本用于个人福利的支出数量）
+- 帕累托改进 -- 净效用
+
+
+## 文献参考
+
+- 政府质量对幸福感的提升远大于经济增长和生产力的提高
+- 如何预测人们未来的效用
+- 人们预测的 现在的 记忆中的 效用 是否一致？
+
+
+## 有意思的矛盾观点
+
+- 美国1946-1991 实际人均收入增长了2.5倍，但是幸福感基本不变
+
+  一般而言，高收入与幸福感相关，但是在整个生命周期里面却基本不变
+- 工作一直被认为是对个人是难以忍受的，但是实证研究表明：当一个人失业时，即使是获得同工作时一样的收入，也会大大降低其幸福感。
+
+## 拓展
+
+    是否存在其他非经济因素制约了幸福感的增长？
+        - 性别
+        - 宗教
+        - 人种
+        - 年龄
+# Section 2
+
+## 思路：
+
+Section 2 discusses the relationship between happiness and utility, and argues that reported subjective well- being is a satisfactory empirical approximation of individual utility. 
+幸福感和效用之间的关系,并讨论报告的主观幸福感可以被用于个体效用的经验近似
+
+## 文献综述
+
+### 以前一直被认为是属于心理学的范畴，现在才与经济学相联系
+
+- 领路人 Easterlin 1974
+
+- tipping points: symposium(研讨会)
+
+  Robert Frank 1997
+
+  Yew-Kwang Ng 1997
+
+  Oswald 1997
+
+- 1990s
+  large-scale empirical analyses
+
+> survey推荐：  Kahneman, Diener, and Schwarz 1999, and Frey and Stutzer 2002
+
+### 幸福的定义
+#### 客观指标：
+
+- goods and services and leisure
+
+#### 主观指标：
+
+- 被认为是unscientific，因为不能被客观度量objectively observable
+
+- 好处：效用和人际间比较性的‘势’对于正向需求理论不那么重要了，根据Occam’s razor,有巨大的优势。 
+
+  > [奥卡姆剃刀定理][https://baike.baidu.com/item/%E5%A5%A5%E5%8D%A1%E5%A7%86%E5%89%83%E5%88%80%E5%8E%9F%E7%90%86/10900565?fr=aladdin]
+  >
+  > 常用于两种或两种以上假说的取舍上：如果对于同一现象有两种或多种不同的假说，我们应该采取比较简单或可证伪的那一种，世界客观存在即是建立在客观实践之上，正所谓实践是检验真理的唯一标准。
+
+#### 运用 the axiomatic  approach(公理化办法)
+
+> 举例而言：社会福利的比较是基于 房产的购买行为
+>
+> social welfare comparison is based on the consumption behavior of household.
+
+#### The positivistic view 实证研究 
+
+- 有人认为人类的**choice**是唯一可以被观察的。
+
+- 为了研究人类行为，可以考虑 [interdependent utility function][Clark and Oswald 1998]
+
+> 总而言之，主观指标是对经济学研究世界很好的补充，同时方便人们直接分析人类的幸福感，有利于对基本假设和经济理论做直接的研究。
+
+## 效用的度量
+
+### 主观指标一般采用[调查问卷提问][Veenhoven 1993]（基于自己是最了解自己的选择） 
+
+- [the General Social Surveys ](James Davis, Tom Smith, and Peter Marsden 2001)
+
+  划分为：very happy, pretty happy, or not too happy？
+
+-  [World Values Survey](Inglehart et al. 2000)
+
+  from 1(dissatisfied) to 10 (satisfied)
+
+-  [*the Satisfaction With Life Scale*](William Pavot and Diener 1993)
+     提问五个问题，划分为1-7等
+-  The Eurobarometer Surveys
+    划分为：very satisfied, fairly satisfied, not very satisfied, or not at all satisfied 
+
+### The subjective data 
+
+- It can be treated ordinally in econometric analyses so that higher reported subjective well-being reflects higher well-being of an individual. Whether happiness measures meet this condition has been widely assessed in psychological evaluation studies.
+
+> 心理学评估研究: Andrews and Robinson (1991), Michalos (1991), Randy Larsen and Barbara Fredrickson (1999), Schwarz and Strack (1999) and Veenhoven (1993)
+
+- 不同的幸福感统计方法之间的相关性很强。(Meredith Fordyce 1988)
+- 可靠性研究表明主观幸福感报告（数据）是基本平稳的，并且对生活环境的变动[十分敏感](Joop Ehrhardt, Willem Saris, and Veenhoven 2000; and Bruce Headey and Alexander Wearing 1991)
+- 还有一些观点：
+    1. 幸福感强的人更喜欢笑，
+    2. 幸福感强的人更少自杀
+
+## 幸福感方程
+Provided that reported subjective well-being is a valid and empirically adequate measure for human well-being, it can be modeled in a ***micro-econometric happiness function*** which is estimated by ***ordered probit*** or ***logit*** :
+$$
+{W}_{it}={\alpha}+{\beta}{X}_{it}+{\epsilon}_{it}
+$$
+Thereby, true well-being serves as the latent variable.$$X = {x}_{1},{x}_{2},...,{x}_{n}$$ are known variables like sociodemographic and socioeconomic characteristics, as well as institutional constraints on individual $i$ at time $t$. 
+
+The model allows us to analyze each factor that is correlated with reported subjective well-being separately. This approach has been successfully applied in numerous studies on the correlates of happiness. Advanced methods have been used recently in order to address nonrandom measurement errors.
+
+测量误差与未被观测到的特征值被记入${\epsilon}$.误差的原因包括统计问题的设置和回答者等等，但是这也不会bias统计结果。
+
+- 统计结果也许会被个人的特性所影响。例如：[做志愿服务的人的幸福感更高。](Argyle 1999)
+- 但是做志愿服务不会一定会提高一个人的幸福感水平。例如：[一个外向的人可能会做更多的志愿服务，因此乐观也许是其有更高幸福感水平的原因](Kristina DeNeve and Harris Cooper 1998)
+- 一般而言，被统计幸福感的人是单一时间点上的数据，因此不具有时间上的连续性，除非调查是对其连续进行的。
+- 个人特征与统计误差的相关性之间的误差。例如：年轻人表现出比年长者更低的幸福感分数。一方面，这有可能的确是年轻人的生活更差，另一方面也许是年龄对其产生了影响，但是这很难用计量方法矫正。
+
+In addition to the statistical preconditions to study the determinants of happiness discussed so far, further conditions have to be met if welfare comparisons are undertaken on the basis of reported subjective well-being. These conditions are **cardinality** and **interpersonal comparability** of the individual statements of well-being.
+除了迄今讨论的研究幸福决定因素的统计先决条件外, 如果根据所报告的主观幸福感进行福利比较, 就必须满足进一步的条件。这些条件是个人幸福陈述的**基数**和**人际可比性**。
+
+但这也[对于实证水平研究的影响较小](Kahneman 1999). 例如: [happy people一般对于家属](Heidi Lepper 1998; and Sandvik, Diener, and Seidlitz 1993)、[朋友、伴侣来说都属于happy people.](Paul Costa and Robert McCrae 1988) **序数**效用方法下的结果和主要的幸福感分数方法下的结果也[基本一致。](Frey and Stutzer 2000)
+
+## 综上所述
+
+The existing research suggests that, for many purposes, happiness or reported subjective well-being is a satisfactory empirical approximation to individual utility. It is thus possible and worthwhile to study economic effects on happiness.
+
+
+# Section 3-5
+
+## 思路
+
+介绍三种经济因素(收入、失业、通货膨胀)对幸福感的影响
+
+## income
+### 三个问题
+1. 同一时间点下，高收入者比低收入者幸福感强吗？
+2. 随着时间的推移，增加收入会提高幸福感吗?
+3. 富裕国家的人比贫穷国家的人幸福感强吗？
+
+## 3.1 .1 同一时间点下，高收入者比低收入者幸福感强吗？
+
+#### [ 一般而言有钱人的幸福感就是会更高][Blanchflower and Oswald (2000) and Easterlin (1995, 2001) for the United States; Di Tella, MacCulloch, and Oswald (2001) for the member countries of the European Union; and Frey and Stutzer (2000) for Switzerland.]
+![Figure1](C:\Users\chris\Documents\markdown\Figure1.png)
+
+[Table 1][(Helliwell 2001, p. 14).]
+![Table1](C:\Users\chris\Documents\markdown\Table1.png)
+
+> The relationship between in- come and happiness, both in simple re- gressions and when a large number of other factors are controlled for in multi- ple regressions, proves to be statistically (normally highly) significant. In this sense, "income does buy happiness."
+
+#### 其他因素对幸福感影响也很大！
+Differences in income explain only a low proportion of the differences in happiness among persons. In the United States, [for example, the simple correlation is 0.20 ](Easterlin 2001, p. 468).  A low correlation coefficient might indicate that **other factors** are also important in explaining why some people are happier than others.  例如：health、personality、 [individuals who prize material goods more highly than other values in life tend to be substantially less happy](Joseph Sirgy 1997).、[goals](Tim Kasser and Ryan 2001). intrinsic 比 extrinsic（追求财富和社会地位） 的要高。
+
+#### 收入和幸福感到底存在不存在因果联系？
+income和happiness没有因果关系(causation)也许是不是因为钱使人开心，可能是开心的人赚的更多(开心的人可能工作更加努力、上进) 。为了证明这一观点，[国外](Jonathan Gardner and Oswald 2001; also Stephen Smith and Peter Razzell 1975; and Philip Brickman, Dan Coates, and Ronnie Janoff-Bulman 1978)采取了*windfalls determining income*，即意外横财的手段进行分析，结果是有正向关联。
+
+#### 为什么高收入不能简单的转化为高幸福感？
+
+##### Individuals compare themselves to other individuals. 人们喜欢比较
+
+- [Relative Income][ (see Gary Becker 1974; Frank 1985; and Robert Pollak 1976) ] 该研究主要看个人前后消费前后对幸福感的影响或者是期望收入的影响
+
+  *<u>该实验由于统计数据的问题，无法实现。</u>*
+
+- In economics, [Easterlin](1974, 1995, 2001) uses the concept of aspirations as a frame of reference to explain happiness. He acknowledges that people with higher income are, on average, happier, but raising everybody's income does not increase everybody's happiness, because in comparison to others income has not improved. This interpretation of the data is supported by laboratory findings showing the importance of [relative judgements for happiness](Richard Smith, Diener, and Douglas Wedell 1989, and Amos Tversky and Dale Griffin 1991).
+
+- [Thorstein Veblen](1899) coined the notion of *"conspicuous consumption"* serving to impress other persons. [The "relative income hypothesis" was formulated and econometrically tested][ by James Duesenberry (1949),], 该作者通过外部非对称结构说明富人会对穷人产生负的外部效用，但是反之不会。
+
+- ["individual welfare functions," or the Leyden approach][, was opened by van Praag and Arie Kapteyn (1973) and associates (for a recent survey, see van Praag and Paul Frijters 1999).]  你觉得多少钱让你开心/ 很不开心问卷调查(income evaluation question)
+
+-  [通过对一个劳动市场内的研究对比][Clark and Oswald (1996)] ：结论是, 参照群体的收入越高, 人们对工作的满意度就越低。
+
+- [通过对家庭内的研究对比：][ David Neumark and An- drew Postlewaite (1998) ] 研究人员发现：女性是否参加工作取决于她的姐妹或者女性亲戚是不是参加工作以及她们挣多少钱。
+
+  > 收入分配对幸福感的影响问题最近(USA 2002)很少被提及，原因是缺少合适的数据。
+
+- [经济学家][Alberto Alesina, Di Tella, and Mac- Culloch (2001)]认为**不公平**会对幸福感产生负向效应(欧洲)；但是美国却不是这样。原因可能是欧洲人更加厌恶不公平而美国人存在更好的向上的**社会流动性**。
+- [经济学家][Carol Graham and Stefano Pettinato (2001a,b)]在研究发展中国家的个人收入和幸福感的研究中发现，这两者间也存在着正向关系，但是也需要强调**收入分配的相对位置关系**，而不仅仅是绝对收入水平。[ It also emphasizes the relevance of the relative position in the income distribution rather than the absolute level of income.]
+
+
+## unemployment 
+### 两个问题
+1. 失业者的幸福感水平是多少？
+2. 失业如何影响幸福感？
+
+## inflation
+
+# Section 6
+
+## 思路
+Section 6 shows that, in addition to current economic conditions, institutional factors, in particular the type of democracy and the extent of government decentralization, systematically influence how satisfied individuals are with their lives.
+第6节表明, 除了目前的经济条件外, 体制因素, 特别是民主的类型和政府权力下放的程度, 还系统地影响个人对生活的满意度。
+
+# Section 7
+
+## 思路
+Section 7 provides a summary and discusses the implications for economic policy and theory.
+第7节概述并讨论了对经济政策和理论的影响。
+
+
+
+
